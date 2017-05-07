@@ -1,13 +1,4 @@
 <?php
-# ecomerce-eshop
-# this is a simple and basic script for ecomerce websites coded by : Ilyas ARIBA
-# Email : ilyas.ariba@gmail.com
-# Facebook : facebook.com/ilyas.ariba
-# Twitter : twitter.com/ilyas_ariba
-# Behance : behance.net/ilyas-ariba
-# Instagram : instagram.com/ilyas.ariba
-?>
-<?php
 include 'include/header.php';
 // $res = $con->query("SELECT * FROM client");
 $res = $con->query("SELECT client.c_id,client.c_nom,client.c_prenom,client.c_sex,count(command.c_id) n FROM client LEFT JOIN command ON client.c_id=command.c_id GROUP BY client.c_id");

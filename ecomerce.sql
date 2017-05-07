@@ -38,7 +38,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`a_id`, `a_username`, `a_email`, `a_pass`) VALUES
-(1, 'ilyassking', 'ilyas.ariba@gmail.com', 'e10adc3949ba59abbe56e057f20f883e');
+(1, 'zzzz', 'xxxx@gmail.com', 'e10adc3949ba59abbe56e057f20f883e');
 
 -- --------------------------------------------------------
 
@@ -134,7 +134,7 @@ CREATE TABLE `client` (
 --
 
 INSERT INTO `client` (`c_id`, `c_nom`, `c_prenom`, `c_email`, `c_pass`, `c_sex`, `c_avatar`, `c_contry`, `c_ville`, `c_tele`, `c_fax`, `c_adresse`) VALUES
-(3, 'ARIBA', 'ILYAS', 'ilyas.ariba@gmail.com', '3691308f2a4c2f6983f2880d32e29c84', 'homme', 'avatar.png', 'MOROCCO', 'RISSANI', '0273548590', '092374859', 'errachidia rue34 , 345'),
+(3, 'zzzz', 'ddd', 'eee@gmail.com', '3691308f2a4c2f6983f2880d32e29c84', 'homme', 'avatar.png', 'MOROCCO', 'RISSANI', '0273548590', '092374859', 'fff rue34 , 345'),
 (10, 'Ali', 'Alaoui', 'Ali@Alaoui.com', '2ee297f81b8675e0e8a2304412bdcefc', 'homme', 'avatar.png', '', '', '', '', ''),
 (11, 'AHMED', 'Ali', 'AHMED.Ali@gmail.com', '4645266533780f7fd23e318adcdb31af', 'homme', 'avatar.png', '', '', '', '', '');
 

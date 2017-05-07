@@ -1,9 +1,4 @@
 <?php
-###########################
-## coded By Ilyas ARIBA ###
-## 02/02/2017 #############
-###########################
-
 $hostname = 'localhost';    // host name
 $username = 'root';         // user name
 $password = '';   // password

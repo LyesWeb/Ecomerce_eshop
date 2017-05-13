@@ -13,6 +13,7 @@ if(isset($_SESSION['c_id'])){
     header('Location: 404.php');
     exit;
 }
+
 include 'include/header.php';
 include 'include/register.code.php';
 include 'include/login.code.php';

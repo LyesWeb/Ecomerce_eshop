@@ -10,7 +10,7 @@
 <?php
 include 'FPDF/fpdf.php';
 
-$con = new mysqli('localhost','root','ilyassking','ecomerce');
+$con = new mysqli('localhost','root','','ecomerce');
 session_start();
 
 $res = $con->query("SELECT * FROM client WHERE c_id={$_SESSION['c_id']}");

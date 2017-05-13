@@ -27,6 +27,7 @@ if(!isset($_SESSION['c_id'])){
     include 'include/login.code.php';
 }
 ############################
+if(isset($_POST['qtes']))
 for ($i=0; $i < count($_POST['qtes']); $i++) {
     $_SESSION['pannier'][$i]['qte'] = $_POST['qtes'][$i];
 }

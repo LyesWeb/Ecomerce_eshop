@@ -1,5 +1,6 @@
 <?php
 include 'config.php';
+$action = '';
 if(isset($_GET['action']))
     $action = clean($_GET['action']);
 if ($action=='addtocard' and isset($_GET['pid'])){
